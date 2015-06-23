@@ -1,0 +1,16 @@
+/*
+Theme Name: Bhinneka
+Theme URI: http://themeforest.com/user/population2
+Description:  Bhinneka is a responsive WordPress theme with two-column page layouts, slideshow support, three alternative styles, widgets and drop down menus. Perfect for non-profit organization, charity, or corporate websites.
+Author: Population 2
+Version: 1.12
+License: Regular License
+License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
+*/
+
+
+@import "css/column.css";
+@import "css/colorbox.css";
+@import "css/tipTip.css";
+@import "css/flexslider.css";
+@import "css/layout.css";

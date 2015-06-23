@@ -1,0 +1,7 @@
+/*
+Fixes for Internet Explorer
+*/ 
+
+
+/* since min-width does not work on IE8, the width can be customized here to make it a fixed width (like Columnal 0.8+ now does for Internet Explorer 6 and 7), by default the width is set to 984px to match the wider option for Internet Explorer 6 and 7 */
+.row {width: 940px !important;}

@@ -1,0 +1,195 @@
+/*------------------------------------------------------------------
+1.	GLOBAL
+------------------------------------------------------------------*/
+blockquote, blockquote p { color: #FF624D; }
+blockquote small { color: #bfbfbf; }
+a { color: #04A8C6; }
+body { background: #FFFBEF; }
+::-moz-selection { background: #FFCC33; }
+::selection { background: #FFCC33; }
+a.more { color:#04A8C6; }
+a.more:hover { color:#000; }
+.cta { color:#04A8C6; }
+.btn.primary, .small-btn.primary, .arrow-btn.primary { background-color: #04A8C6; }
+.btn.primary:hover, .small-btn.primary:hover, .arrow-btn.primary:hover { background-color: #0A97AF; }
+.vintage-type { text-shadow: 1px 1px 0 #FFFBEF, 2px 2px 0 #969696, 3px 3px 0 #969696; }
+input:focus, textarea:focus { border-color: rgba(127, 237, 255, 0.8); -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(225, 75, 63, 0.6); -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(127, 237, 255, 0.6); box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(127, 237, 255, 0.6); }
+
+/*------------------------------------------------------------------
+2.	HEADER
+------------------------------------------------------------------*/
+#header { background: #FFCC33 ; }
+#pre-header { background: none #0F0F0F; border-bottom: 1px solid #2F2C2D; }
+.sf-menu	{ background: rgba(111, 88, 20, 0.5) /* match this color with the background */; }
+.no-rgba .sf-menu 		{ background: #CFA526;  } /* fallback */
+
+/*------------------------------------------------------------------
+3.	CONTENT
+------------------------------------------------------------------*/
+#bnk-crumbs a:hover { color: #04A8C6; }
+#submenu { background: #1F1F1F url('../img/alt-styles/grainy-bg-2.jpg') repeat; }
+#submenu li.current_page_item > a, ul#submenu li a:hover { color: #04A8C6; }
+
+/*------------------------------------------------------------------
+4.	FOOTER
+------------------------------------------------------------------*/
+#footer { background-color: #CFCCC2; }
+.footer-credit { background: transparent url('../img/alt-styles/footer-ribbon-left-2.png') no-repeat 0 0; }
+.footer-credit span { background: transparent url('../img/alt-styles/footer-ribbon-right-2.png') no-repeat right top; }
+
+/*------------------------------------------------------------------
+5.	WIDGETS
+------------------------------------------------------------------*/
+.bnk-widget .widget-title { background: url(../img/alt-styles/sidebar-ribbon-2.png) no-repeat top center; }
+.bnk-widget a:hover { color: #04A8C6; }
+.bnk-footer-widget { color:#5F5F5F; }
+.bnk-footer-widget .widget-title { color:#000; }
+.bnk-footer-widget ul li { background: url(../img/alt-styles/list-bullet-footer-2.png) no-repeat 0 4px; }
+.bnk-footer-widget a { color:#5F5F5F; }
+.widget_nav_menu ul li, .widget_pages ul li { background: url(../img/alt-styles/list-bullet-2.png) no-repeat 0 4px; }
+.bnk-footer-widget.widget_nav_menu ul li, .bnk-footer-widget.widget_pages ul li { background: url(../img/alt-styles/list-bullet-footer-2.png) no-repeat 0 4px; }
+.widget_search #searchsubmit:active { background: #04A8C6; border-color: #04A8C6; }
+.tweet_list li a { color: #8F8F8F; }
+.testimonials-container h3 a { color:#000; }
+.bnk-directions:hover h3 a, .bnk-newsletter:hover h3 a, .bnk-donation:hover h3 a { color:#04A8C6; }
+.bnk-directions h3 a, .bnk-newsletter h3 a, .bnk-donation h3 a { color: #000; }
+.bnk_widget_single_post h3 a:hover { color: #04A8C6; }
+.bnk_widget_single_post a.cta { color:#7F7F7F; }
+.bnk_widget_single_post a.cta:hover { color:#04A8C6; }
+
+/*------------------------------------------------------------------
+6.	HOME PAGE
+------------------------------------------------------------------*/
+.antique-ribbon { background: transparent url('../img/alt-styles/antique-ribbon-left-2.png') no-repeat 0 0; }
+.antique-ribbon span { background: transparent url('../img/alt-styles/antique-ribbon-right-2.png') no-repeat right top; }
+.intro-widget { background-color: #2F2F2F; }
+.intro-widget:hover { background: #2F2F2F url(../img/hatch-2.png) repeat; }
+ .intro-widget a { color:#FFF; }
+.intro-content h3 { color:#FFCC33; }
+#donate { background: url('../img/alt-styles/grainy-bg-2.jpg') repeat;  }
+.vintage-ribbon { background: transparent url('../img/alt-styles/vintage-ribbon-left-2.png') no-repeat 0 0; }
+.vintage-ribbon span { background: transparent url('../img/alt-styles/vintage-ribbon-right-2.png') no-repeat right top; }
+.donate-other p a { color:#CFCFCF; background: url('../img/alt-styles/grainy-bg-2.jpg') repeat; }
+.profile-post h4 a:hover { color: #04A8C6;  }
+.fancy-ribbon { background: transparent url('../img/alt-styles/fancy-ribbon-left-2.png') no-repeat 0 0; }
+.fancy-ribbon span { background: transparent url('../img/alt-styles/fancy-ribbon-right-2.png') no-repeat right top;  }
+
+/*------------------------------------------------------------------
+7.	SECTION
+------------------------------------------------------------------*/
+.page-title { background: #1F1F1F; color:#FFF; }
+.entry-title a:hover { color:#04A8C6; }
+.entry-meta a { color: #888; }
+.cat-links a, .tag-links a { color: #FFF; }
+.cat-links a:hover, .tag-links a:hover { color: #000; background: #FFCC33; }
+a.comment-reply-link:hover, a.comment-reply-link:focus, a.comment-reply-link:active, a.comment-reply-login:hover, a.comment-reply-login:focus, a.comment-reply-login:active { background: #FFCC33; color: #000; }
+#respond input#submit { background-color: #04A8C6; }
+#respond input#submit:active, #respond input#submit:hover { background: #CF1A0C; }
+.landing-mod { background-color: #2F2F2F; color: #FFF;}
+.landing-mod:hover { background: #2F2F2F url(../img/hatch-2.png) repeat; }
+.landing-mod h3 { color:#FFCC33; }
+.landing-mod .cta { color: #CFCFCF; }
+.landing-mod .cta:hover { color: #CFCFCF; }
+
+/*------------------------------------------------------------------
+8.	MISC
+------------------------------------------------------------------*/
+.features .feat_nav li a:hover, .features .feat_nav li.ui-state-active a { color:#04A8C6; }
+.tabs ul.tab_nav li a:hover { color:#04A8C6;  }
+.tabs ul.tab_nav li.ui-tabs-selected a { color:#04A8C6;  }
+
+/*------------------------------------------------------------------
+9.	FLEXSLIDER
+------------------------------------------------------------------*/
+.flex-direction-nav li a { background: url(../img/alt-styles/nav-slide-2.png) no-repeat 0 0; }
+#image_slideshow .flex-direction-nav li a { background: url(../img/alt-styles/nav-slide-2.png) no-repeat -167px -8px; }
+
+/*------------------------------------------------------------------
+10.	MEDIA QUERIES
+------------------------------------------------------------------*/
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+	.replace  { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; font-weight:bold; }
+	.vintage-type { text-shadow: none; }
+
+	body { font-size: 14px; }
+	.social_toolbox { width: 105px; }
+	#logo img { margin:0 auto;}
+	#secondary-nav { clear:none;  }
+	#sf-nav { clear: both; float: none; margin-left: 0; margin-right: 0; padding-left: 10px; padding-right: 10px;
+	width: auto; width: -moz-available; }
+	#nav-wrapper { float:none; }
+	.page-content { margin-bottom: 0;}
+	.module { margin-bottom: 2em;}
+
+	#slider-mobile h1 { margin:0; }
+	.flex-direction-nav { display:none; }
+
+	.intro-content { width: 100%; height:auto; }
+	.intro-content h3 	{ background: url("../img/mobile-menu-arrow.png") no-repeat scroll right center transparent; margin:0;}
+
+	.antique-ribbon-wrapper, .fancy-ribbon-wrapper 	{ float: none; position:static; margin-top: 1em;  margin-bottom:0; }
+		.antique-ribbon, .fancy-ribbon { background: none; padding: 0; position: static; overflow:hidden; height:auto;  }
+		.antique-ribbon span, 	.fancy-ribbon span { background:  #B9B6AF; padding: 0.5em 0; width:100%; }
+
+	.vintage-ribbon-wrapper	{ float: none; position:static; margin-top: 1em;  margin-bottom:0; }
+	    .vintage-ribbon { background: none; padding: 0; position: static; overflow:hidden; height:auto;  }
+		.vintage-ribbon-wrapper span { background:  none; padding: 0.5em 0 1em; width:100%; color:  #FFF; text-shadow:none;   }
+
+	.intro-widget { -webkit-border-radius:0; -moz-border-radius: 0; border-radius: 0; border-bottom: 1px solid #5c534f;  }
+
+	.profile-post { overflow:hidden; }
+	.profile-post-content { width: 70%; float:left; }
+	#profiles .divider-line { background: none; }
+	#profiles .fancy-ribbon-wrapper { margin-right:10px; margin-left:10px; }
+
+	.donate-content { padding: 0 12%; }
+	.donation-button 	{ float:none; margin:0; width:100%;  }
+	#donate { -webkit-border-radius:0; -moz-border-radius: 0; border-radius: 0; }
+
+	#footer { background:none; padding-top:0; margin-top:0;}
+	.footer-widget { margin-bottom: 2.3em; }
+		.footer-credit-wrapper 	{ float: none; position:static;  border-top: 1px solid #9F988B; margin-left:10px; margin-right:10px; }
+		.footer-credit 			{ background: none; padding: 0; position:static; }
+		.footer-credit span 	{ background: none; float:left; padding:2em 0 0; width: 100%; color:#3F3F3F; }
+		.footer-credit span a	{  color:#3F3F3F; }
+
+	.cat-links a, .tag-links a { background:none; color: #04A8C6; font-size: 12px; font-family:Georgia, "Times New Roman", Times, serif; text-transform:none;  font-style:italic; }
+	.cat-links a:hover, .tag-links a:hover {  color: #000; }
+
+	#contacform .text, #contacform .textarea { width:97%; }
+
+	/*Gallery*/
+	.gallery-content { float:none; width:100%; }
+	.gallery #image_slideshow, .gallery .video-container { float:none; width:100%; }
+
+	/*  Profile Single */
+	.profile-thumbnail { float:none; width:100%; margin-right: 0;  }
+	.profile-content  { float:none; width:100%;  }
+
+    .ui-tabs .ui-tabs-hide 	{ display: block; }
+	.features .tab { width: 100%; }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	.social_toolbox { margin: 10px auto !important; float: none; ; overflow:hidden; }
+	#secondary-nav ul { margin: 0 auto !important; width:198px; float: none; /* width: auto ;clear:none; */  }
+	input, textarea, select, .uneditable-input {  width: 160px; }
+	.donate-content { padding: 0 5%; }
+}
+
+/* Provide higher res assets for iPhone 4 - preset code from cssgrid.net */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+}

@@ -1,0 +1,1520 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bhinneka for Wordpress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-23 11:31-0500\n"
+"PO-Revision-Date: 2012-05-23 11:33-0500\n"
+"Last-Translator: Population 2 <populationtwo@gmail.com>\n"
+"Language-Team: Population2\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:195
+msgid "OOPS!"
+msgstr ""
+
+#: ../404.php:214
+#: ../archive.php:58
+#: ../author.php:55
+#: ../category.php:39
+msgid "Apologies, it appears the page you are looking for no longer exists. Perhaps searching will help."
+msgstr ""
+
+#: ../404.php:229
+msgid "Most Used Categories"
+msgstr ""
+
+#: ../404.php:238
+msgid "Try looking in the monthly archives. "
+msgstr ""
+
+#: ../archive.php:13
+msgid "Daily Archives"
+msgstr ""
+
+#: ../archive.php:15
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../archive.php:17
+msgid "Yearly Archives"
+msgstr ""
+
+#: ../archive.php:19
+msgid "Archives"
+msgstr ""
+
+#: ../archive.php:39
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:50
+#: ../author.php:51
+#: ../category.php:35
+#: ../index.php:28
+msgid "Nothing Found"
+msgstr ""
+
+#: ../author.php:13
+msgid "Author Archives"
+msgstr ""
+
+#: ../author.php:35
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../comments.php:10
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:30
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:31
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: ../common-functions.php:44
+#, php-format
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr ""
+
+#: ../common-functions.php:62
+#, php-format
+msgid "<li><img src=\"%2$s/img/icon-cal.png\" alt=\"Calendar icon\"/> %1$s</li>"
+msgstr ""
+
+#: ../common-functions.php:75
+#, php-format
+msgid "<li><img src=\"%3$s/img/icon-cat.png\" alt=\"Category icon\"/> %1$s</li><li><img src=\"%3$s/img/icon-tags.png\" alt=\"Tags icon\"/> %2$s</li>"
+msgstr ""
+
+#: ../common-functions.php:77
+#, php-format
+msgid "<li><img src=\"%3$s/img/icon-cat.png\" alt=\"Category icon\"/> %1$s</li>"
+msgstr ""
+
+#: ../common-functions.php:94
+#: ../common-functions.php:103
+#: ../content.php:50
+#: ../content.php:60
+msgid " "
+msgstr ""
+
+#: ../common-functions.php:97
+#: ../content.php:54
+#, php-format
+msgid "<span class=\"%1$s\">Category:</span> %2$s"
+msgstr ""
+
+#: ../common-functions.php:109
+#: ../content.php:66
+#, php-format
+msgid "<span class=\"%1$s\">Tags:</span> %2$s"
+msgstr ""
+
+#: ../common-functions.php:120
+#: ../content-aside.php:33
+#: ../content-quote.php:59
+#: ../content.php:76
+msgid "Leave a reply"
+msgstr ""
+
+#: ../common-functions.php:120
+#: ../content-aside.php:33
+#: ../content-quote.php:59
+#: ../content.php:76
+msgid "<b>1</b> Reply"
+msgstr ""
+
+#: ../common-functions.php:120
+#: ../content-aside.php:33
+#: ../content-quote.php:59
+#: ../content.php:76
+msgid "<b>%</b> Replies"
+msgstr ""
+
+#: ../common-functions.php:249
+msgid "Page"
+msgstr ""
+
+#: ../common-functions.php:330
+msgid "Invalid <strong>Youtube</strong> URL."
+msgstr ""
+
+#: ../common-functions.php:340
+msgid "Invalid <strong>Vimeo</strong> URL."
+msgstr ""
+
+#: ../common-functions.php:440
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: ../common-functions.php:456
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: ../content-aside.php:15
+msgid "Aside"
+msgstr ""
+
+#: ../content-aside.php:25
+#: ../content-quote.php:26
+#: ../content.php:34
+#: ../content.php:41
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-page.php:16
+#: ../content.php:79
+msgid "Pages:"
+msgstr ""
+
+#: ../content-quote.php:10
+msgid "Quote"
+msgstr ""
+
+#: ../content-quote.php:34
+#: ../content-quote.php:44
+msgid ", "
+msgstr ""
+
+#: ../content-quote.php:38
+#, php-format
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr ""
+
+#: ../content-quote.php:50
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: ../content-single.php:39
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../content.php:11
+msgid "Featured"
+msgstr ""
+
+#: ../functions.php:179
+msgid "Primary Navigation"
+msgstr ""
+
+#: ../functions.php:180
+msgid "Secondary Navigation"
+msgstr ""
+
+#: ../functions.php:181
+msgid "Call to Action Navigation"
+msgstr ""
+
+#: ../functions.php:206
+#, php-format
+msgid "Search results for %s"
+msgstr ""
+
+#: ../functions.php:209
+#: ../functions.php:226
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:262
+msgid "Read More &raquo;"
+msgstr ""
+
+#: ../functions.php:317
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions.php:317
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:333
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: ../functions.php:339
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:347
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:356
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:373
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../functions.php:375
+msgid "The primary sidebar widget area"
+msgstr ""
+
+#: ../functions.php:384
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: ../functions.php:386
+msgid "The secondary sidebar widget area"
+msgstr ""
+
+#: ../functions.php:396
+msgid "First Footer"
+msgstr ""
+
+#: ../functions.php:398
+msgid "The first footer widget area"
+msgstr ""
+
+#: ../functions.php:408
+msgid "Second Footer"
+msgstr ""
+
+#: ../functions.php:410
+msgid "The second footer widget area"
+msgstr ""
+
+#: ../functions.php:419
+msgid "Third Footer"
+msgstr ""
+
+#: ../functions.php:421
+msgid "The third footer widget area"
+msgstr ""
+
+#: ../functions.php:430
+msgid "Fourth Footer"
+msgstr ""
+
+#: ../functions.php:432
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: ../index.php:32
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: ../search.php:11
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../search.php:54
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: ../sidebar-secondary.php:36
+#: ../sidebar.php:36
+msgid "Meta"
+msgstr ""
+
+#: ../tag.php:13
+msgid "Tag Archives"
+msgstr ""
+
+#: ../template-contact.php:90
+msgid "Your message has been sent."
+msgstr ""
+
+#: ../template-contact.php:94
+msgid "Sorry, an error occured while sending your message."
+msgstr ""
+
+#: ../template-contact.php:100
+msgid "Name*:"
+msgstr ""
+
+#: ../template-contact.php:108
+msgid "Email*:"
+msgstr ""
+
+#: ../template-contact.php:116
+msgid "Phone:"
+msgstr ""
+
+#: ../template-contact.php:121
+msgid "Message*:"
+msgstr ""
+
+#: ../template-contact.php:128
+msgid "Send Message"
+msgstr ""
+
+#: ../template-landing.php:55
+msgid "Read More"
+msgstr ""
+
+#: ../admin/admin-interface.php:103
+#: ../admin/admin-interface.php:120
+msgid "Save All Changes"
+msgstr ""
+
+#: ../admin/admin-interface.php:121
+msgid "Options Reset"
+msgstr ""
+
+#: ../admin/admin-interface.php:577
+msgid "Click OK to backup your current saved options."
+msgstr ""
+
+#: ../admin/admin-interface.php:624
+msgid "Warning: All of your current options will be replaced with the data from your last backup! Proceed?"
+msgstr ""
+
+#: ../admin/admin-interface.php:713
+msgid "Click OK to reset. All settings will be lost!"
+msgstr ""
+
+#: ../admin/admin-interface.php:1270
+msgid "Last Backup : "
+msgstr ""
+
+#: ../admin/admin-interface.php:1327
+msgid "Upload"
+msgstr ""
+
+#: ../admin/medialibrary-uploader.php:18
+msgid "Options"
+msgstr ""
+
+#: ../admin/medialibrary-uploader.php:210
+#: ../functions/post-types.php:86
+#: ../functions/post-types.php:87
+msgid "Gallery"
+msgstr ""
+
+#: ../admin/medialibrary-uploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../admin/theme-options.php:112
+msgid "General"
+msgstr ""
+
+#: ../admin/theme-options.php:115
+msgid "FeedBurner URL"
+msgstr ""
+
+#: ../admin/theme-options.php:116
+msgid "Enter FeedBurner URL e.g. http://feeds.feedburner.com/YOUR_FEED_URL"
+msgstr ""
+
+#: ../admin/theme-options.php:121
+msgid "Contact form email"
+msgstr ""
+
+#: ../admin/theme-options.php:122
+msgid "E-mail address where messages from contact form will be sent"
+msgstr ""
+
+#: ../admin/theme-options.php:127
+msgid "Addthis"
+msgstr ""
+
+#: ../admin/theme-options.php:128
+msgid "Display Addthis in Single Posts."
+msgstr ""
+
+#: ../admin/theme-options.php:133
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../admin/theme-options.php:134
+msgid "Display breadcrumbs."
+msgstr ""
+
+#: ../admin/theme-options.php:139
+msgid "Sub-pages navigation"
+msgstr ""
+
+#: ../admin/theme-options.php:140
+msgid "Display sub-pages navigation."
+msgstr ""
+
+#: ../admin/theme-options.php:145
+msgid "Footer text"
+msgstr ""
+
+#: ../admin/theme-options.php:146
+msgid "Copyright note in the footer"
+msgstr ""
+
+#: ../admin/theme-options.php:151
+msgid "Scroll to top"
+msgstr ""
+
+#: ../admin/theme-options.php:152
+msgid "Display Scroll to Top button in Footer"
+msgstr ""
+
+#: ../admin/theme-options.php:157
+msgid "Tracking code"
+msgstr ""
+
+#: ../admin/theme-options.php:158
+msgid "Enter the tracking code, e.g., Google Analytics, with the &lt;script&gt; tag."
+msgstr ""
+
+#: ../admin/theme-options.php:163
+msgid "Custom read more text"
+msgstr ""
+
+#: ../admin/theme-options.php:164
+msgid "Replace Read More with custom text."
+msgstr ""
+
+#: ../admin/theme-options.php:172
+msgid "Appearance"
+msgstr ""
+
+#: ../admin/theme-options.php:175
+msgid "Color scheme"
+msgstr ""
+
+#: ../admin/theme-options.php:176
+msgid "Select color scheme"
+msgstr ""
+
+#: ../admin/theme-options.php:184
+msgid "Header background image"
+msgstr ""
+
+#: ../admin/theme-options.php:185
+msgid "Upload the header background image"
+msgstr ""
+
+#: ../admin/theme-options.php:189
+msgid "Background image"
+msgstr ""
+
+#: ../admin/theme-options.php:190
+msgid "Upload the body background image"
+msgstr ""
+
+#: ../admin/theme-options.php:194
+msgid "Footer background color"
+msgstr ""
+
+#: ../admin/theme-options.php:195
+msgid "Select the color of footer background. No color selected by default."
+msgstr ""
+
+#: ../admin/theme-options.php:199
+msgid "Logo"
+msgstr ""
+
+#: ../admin/theme-options.php:200
+msgid "Upload custom logo image"
+msgstr ""
+
+#: ../admin/theme-options.php:204
+msgid "Login logo"
+msgstr ""
+
+#: ../admin/theme-options.php:205
+msgid "Upload custom WordPress login image. Max 325px x 80px."
+msgstr ""
+
+#: ../admin/theme-options.php:209
+msgid "Custom favicon"
+msgstr ""
+
+#: ../admin/theme-options.php:210
+msgid "Upload custom favicon image (.ico)"
+msgstr ""
+
+#: ../admin/theme-options.php:215
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/theme-options.php:216
+msgid "Enter custom CSS style."
+msgstr ""
+
+#: ../admin/theme-options.php:221
+msgid "Body font style"
+msgstr ""
+
+#: ../admin/theme-options.php:222
+msgid "Size and color of body font. Default: 16px #444"
+msgstr ""
+
+#: ../admin/theme-options.php:227
+msgid "Main heading color"
+msgstr ""
+
+#: ../admin/theme-options.php:228
+msgid "Select the color of headings in the Main page. No color selected by default."
+msgstr ""
+
+#: ../admin/theme-options.php:233
+msgid "Footer heading color"
+msgstr ""
+
+#: ../admin/theme-options.php:234
+msgid "Select the color of headings in the footer. No color selected by default."
+msgstr ""
+
+#: ../admin/theme-options.php:239
+msgid "Page title background color"
+msgstr ""
+
+#: ../admin/theme-options.php:240
+msgid "Background color of the page title in Pages."
+msgstr ""
+
+#: ../admin/theme-options.php:245
+msgid "Google Web Fonts"
+msgstr ""
+
+#: ../admin/theme-options.php:246
+msgid "Insert the font type for the headings, e.g, Dosis, Berkshire Swash, Londrina Solid, etc. <a href=\"http://goo.gl/v2hiB\" taret=\"_blank\">Google Web Fonts</a> will replace the default Font Face."
+msgstr ""
+
+#: ../admin/theme-options.php:253
+msgid "Slider"
+msgstr ""
+
+#: ../admin/theme-options.php:256
+msgid "Slider text"
+msgstr ""
+
+#: ../admin/theme-options.php:257
+msgid "This text will replace the slider on mobile version when enabled."
+msgstr ""
+
+#: ../admin/theme-options.php:261
+msgid "Animation type"
+msgstr ""
+
+#: ../admin/theme-options.php:262
+msgid "Select the animation type."
+msgstr ""
+
+#: ../admin/theme-options.php:271
+msgid "Slide direction"
+msgstr ""
+
+#: ../admin/theme-options.php:272
+msgid "Select the sliding direction."
+msgstr ""
+
+#: ../admin/theme-options.php:281
+msgid "Slideshow speed"
+msgstr ""
+
+#: ../admin/theme-options.php:282
+msgid "Set the speed of the slideshow, in milliseconds."
+msgstr ""
+
+#: ../admin/theme-options.php:288
+msgid "Animation speed"
+msgstr ""
+
+#: ../admin/theme-options.php:289
+msgid "Set the speed of animations\t, in milliseconds."
+msgstr ""
+
+#: ../admin/theme-options.php:295
+msgid "Direction navigation"
+msgstr ""
+
+#: ../admin/theme-options.php:296
+msgid "Display previous and next navigation"
+msgstr ""
+
+#: ../admin/theme-options.php:301
+msgid "Control navigation"
+msgstr ""
+
+#: ../admin/theme-options.php:302
+msgid "Display navigation for each slide"
+msgstr ""
+
+#: ../admin/theme-options.php:313
+msgid "Home Page"
+msgstr ""
+
+#: ../admin/theme-options.php:316
+msgid "Homepage layout manager"
+msgstr ""
+
+#: ../admin/theme-options.php:317
+msgid "Organize how you want the layout to appear on the homepage"
+msgstr ""
+
+#: ../admin/theme-options.php:324
+msgid "> CTA"
+msgstr ""
+
+#: ../admin/theme-options.php:327
+msgid "Call to Action title"
+msgstr ""
+
+#: ../admin/theme-options.php:328
+#: ../admin/theme-options.php:348
+#: ../admin/theme-options.php:403
+#: ../admin/theme-options.php:413
+msgid "Section title."
+msgstr ""
+
+#: ../admin/theme-options.php:333
+msgid "Call to Action items"
+msgstr ""
+
+#: ../admin/theme-options.php:334
+msgid "Amount of Call to Action Navigation items. Set the menu items from Appearance > Menus"
+msgstr ""
+
+#: ../admin/theme-options.php:344
+msgid "> Intro"
+msgstr ""
+
+#: ../admin/theme-options.php:347
+msgid "Intro title"
+msgstr ""
+
+#: ../admin/theme-options.php:353
+msgid "Intro content"
+msgstr ""
+
+#: ../admin/theme-options.php:354
+msgid "Intro section content."
+msgstr ""
+
+#: ../admin/theme-options.php:359
+msgid "Intro button"
+msgstr ""
+
+#: ../admin/theme-options.php:360
+msgid "Intro section button text."
+msgstr ""
+
+#: ../admin/theme-options.php:365
+msgid "Intro page"
+msgstr ""
+
+#: ../admin/theme-options.php:366
+msgid "Select a page where the button linked to."
+msgstr ""
+
+#: ../admin/theme-options.php:376
+msgid "> Posts"
+msgstr ""
+
+#: ../admin/theme-options.php:379
+msgid "Column 1 query"
+msgstr ""
+
+#: ../admin/theme-options.php:380
+#: ../admin/theme-options.php:392
+msgid "Enter the query parameter for the first column ,e.g., page_id=7, p=7, etc. <a href=\"http://goo.gl/7pPJ4\" target=\"_blank\">More Info</a>."
+msgstr ""
+
+#: ../admin/theme-options.php:385
+msgid "Column 2 query"
+msgstr ""
+
+#: ../admin/theme-options.php:386
+msgid "Enter the query parameter for the second column ,e.g., page_id=7, p=7, etc. <a href=\"http://goo.gl/7pPJ4\" target=\"_blank\">More Info</a>."
+msgstr ""
+
+#: ../admin/theme-options.php:391
+msgid "Column 3 query"
+msgstr ""
+
+#: ../admin/theme-options.php:399
+msgid "> Profiles"
+msgstr ""
+
+#: ../admin/theme-options.php:402
+msgid "Profiles title"
+msgstr ""
+
+#: ../admin/theme-options.php:410
+msgid "> Donation"
+msgstr ""
+
+#: ../admin/theme-options.php:412
+msgid "Donation mod title"
+msgstr ""
+
+#: ../admin/theme-options.php:417
+msgid "Donation image"
+msgstr ""
+
+#: ../admin/theme-options.php:418
+msgid "Upload image. Max width 290px."
+msgstr ""
+
+#: ../admin/theme-options.php:422
+msgid "Donation other"
+msgstr ""
+
+#: ../admin/theme-options.php:423
+msgid "Text below the donation images."
+msgstr ""
+
+#: ../admin/theme-options.php:427
+msgid "Donation other link"
+msgstr ""
+
+#: ../admin/theme-options.php:428
+msgid "Select the page where the text linked to."
+msgstr ""
+
+#: ../admin/theme-options.php:436
+msgid "Landing Page"
+msgstr ""
+
+#: ../admin/theme-options.php:438
+msgid "Display menu"
+msgstr ""
+
+#: ../admin/theme-options.php:439
+msgid "Display Landing Page Menu Items"
+msgstr ""
+
+#: ../admin/theme-options.php:443
+msgid "Landing page menu items"
+msgstr ""
+
+#: ../admin/theme-options.php:444
+msgid "Menu items. Upload image at 85px x 85px."
+msgstr ""
+
+#: ../admin/theme-options.php:451
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../admin/theme-options.php:454
+msgid "404 page title"
+msgstr ""
+
+#: ../admin/theme-options.php:455
+msgid "Page Title of the 404 Error Page."
+msgstr ""
+
+#: ../admin/theme-options.php:460
+msgid "404 Page message"
+msgstr ""
+
+#: ../admin/theme-options.php:461
+msgid "Content of the 404 Error Page."
+msgstr ""
+
+#: ../admin/theme-options.php:466
+msgid "Succes message"
+msgstr ""
+
+#: ../admin/theme-options.php:467
+msgid "Message that will be displayed after success sending a message. Default: \"Your message was sent!\""
+msgstr ""
+
+#: ../admin/theme-options.php:472
+msgid "Fail message"
+msgstr ""
+
+#: ../admin/theme-options.php:473
+msgid "Message that will be displayed after fail sending a message. Default: \"Sorry, an error occured while sending your message.\""
+msgstr ""
+
+#: ../admin/theme-options.php:478
+msgid "Search page title"
+msgstr ""
+
+#: ../admin/theme-options.php:479
+msgid "Page Title of the Search Page when there is no results."
+msgstr ""
+
+#: ../admin/theme-options.php:484
+msgid "Search page message"
+msgstr ""
+
+#: ../admin/theme-options.php:485
+msgid "Content of the Search Page when there is no results."
+msgstr ""
+
+#: ../admin/theme-options.php:491
+msgid "Social Media"
+msgstr ""
+
+#: ../admin/theme-options.php:494
+msgid "RSS URL"
+msgstr ""
+
+#: ../admin/theme-options.php:495
+msgid "Enter RSS URL."
+msgstr ""
+
+#: ../admin/theme-options.php:500
+msgid "Email Address"
+msgstr ""
+
+#: ../admin/theme-options.php:501
+msgid "Enter email address."
+msgstr ""
+
+#: ../admin/theme-options.php:506
+msgid "Facebook URL"
+msgstr ""
+
+#: ../admin/theme-options.php:507
+msgid "Enter Facebook URL."
+msgstr ""
+
+#: ../admin/theme-options.php:512
+msgid "Google+ URL"
+msgstr ""
+
+#: ../admin/theme-options.php:513
+msgid "Enter Google+ URL."
+msgstr ""
+
+#: ../admin/theme-options.php:518
+msgid "Flickr URL"
+msgstr ""
+
+#: ../admin/theme-options.php:519
+msgid "Enter Flickr URL."
+msgstr ""
+
+#: ../admin/theme-options.php:524
+msgid "Twitter URL"
+msgstr ""
+
+#: ../admin/theme-options.php:525
+msgid "Enter Twitter URL."
+msgstr ""
+
+#: ../admin/theme-options.php:530
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../admin/theme-options.php:531
+msgid "Enter Vimeo URL."
+msgstr ""
+
+#: ../admin/theme-options.php:536
+msgid "Youtube URL"
+msgstr ""
+
+#: ../admin/theme-options.php:537
+msgid "Enter Youtube URL."
+msgstr ""
+
+#: ../functions/gallery-fields.php:18
+msgid "Image 1"
+msgstr ""
+
+#: ../functions/gallery-fields.php:19
+#: ../functions/gallery-fields.php:33
+#: ../functions/gallery-fields.php:47
+#: ../functions/gallery-fields.php:61
+#: ../functions/gallery-fields.php:75
+#: ../functions/gallery-fields.php:89
+msgid "640px x 426px"
+msgstr ""
+
+#: ../functions/gallery-fields.php:32
+msgid "Image 2"
+msgstr ""
+
+#: ../functions/gallery-fields.php:46
+msgid "Image 3"
+msgstr ""
+
+#: ../functions/gallery-fields.php:60
+msgid "Image 4"
+msgstr ""
+
+#: ../functions/gallery-fields.php:74
+msgid "Image 5"
+msgstr ""
+
+#: ../functions/gallery-fields.php:88
+msgid "Image 6"
+msgstr ""
+
+#: ../functions/gallery-fields.php:107
+msgid "Video"
+msgstr ""
+
+#: ../functions/gallery-fields.php:113
+msgid "Video URL"
+msgstr ""
+
+#: ../functions/gallery-fields.php:114
+msgid "Add the video URL here, not the embed code. For anything other than Youtube and Vimeo, add the embed code."
+msgstr ""
+
+#: ../functions/gallery-fields.php:132
+msgid "Choose image to upload and insert into post. All images have to be at the same size."
+msgstr ""
+
+#: ../functions/post-types.php:10
+#: ../functions/post-types.php:12
+msgid "Slides"
+msgstr ""
+
+#: ../functions/post-types.php:11
+msgid "Slide"
+msgstr ""
+
+#: ../functions/post-types.php:14
+msgid "Add New Slide"
+msgstr ""
+
+#: ../functions/post-types.php:15
+msgid "Edit Slide"
+msgstr ""
+
+#: ../functions/post-types.php:16
+msgid "New Slide"
+msgstr ""
+
+#: ../functions/post-types.php:17
+msgid "View Slide"
+msgstr ""
+
+#: ../functions/post-types.php:18
+msgid "Search Slides"
+msgstr ""
+
+#: ../functions/post-types.php:19
+msgid "No slides found"
+msgstr ""
+
+#: ../functions/post-types.php:20
+msgid "No slides found in Trash"
+msgstr ""
+
+#: ../functions/post-types.php:37
+#: ../functions/post-types.php:160
+msgid "slide"
+msgstr ""
+
+#: ../functions/post-types.php:48
+#: ../functions/post-types.php:50
+msgid "Testimonials"
+msgstr ""
+
+#: ../functions/post-types.php:49
+msgid "Testimonial"
+msgstr ""
+
+#: ../functions/post-types.php:52
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../functions/post-types.php:53
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../functions/post-types.php:54
+msgid "New Testimonial"
+msgstr ""
+
+#: ../functions/post-types.php:55
+msgid "View Testimonial"
+msgstr ""
+
+#: ../functions/post-types.php:56
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../functions/post-types.php:57
+msgid "No testimonials found"
+msgstr ""
+
+#: ../functions/post-types.php:58
+msgid "No testimonials found in Trash"
+msgstr ""
+
+#: ../functions/post-types.php:75
+#: ../functions/post-types.php:188
+msgid "testimonial"
+msgstr ""
+
+#: ../functions/post-types.php:88
+#: ../functions/post-types.php:113
+#: ../functions/post-types.php:216
+#: ../functions/post-types.php:313
+msgid "gallery"
+msgstr ""
+
+#: ../functions/post-types.php:90
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../functions/post-types.php:91
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../functions/post-types.php:92
+msgid "New Gallery"
+msgstr ""
+
+#: ../functions/post-types.php:93
+msgid "View Gallery"
+msgstr ""
+
+#: ../functions/post-types.php:94
+msgid "Search Gallery"
+msgstr ""
+
+#: ../functions/post-types.php:95
+msgid "No gallery found"
+msgstr ""
+
+#: ../functions/post-types.php:96
+msgid "No gallery found in Trash"
+msgstr ""
+
+#: ../functions/post-types.php:123
+#: ../functions/post-types.php:125
+msgid "Profiles"
+msgstr ""
+
+#: ../functions/post-types.php:124
+msgid "Profile"
+msgstr ""
+
+#: ../functions/post-types.php:127
+msgid "Add New Profile"
+msgstr ""
+
+#: ../functions/post-types.php:128
+msgid "Edit Profile"
+msgstr ""
+
+#: ../functions/post-types.php:129
+msgid "New Profile"
+msgstr ""
+
+#: ../functions/post-types.php:130
+msgid "View Profile"
+msgstr ""
+
+#: ../functions/post-types.php:131
+msgid "Search Profiles"
+msgstr ""
+
+#: ../functions/post-types.php:132
+msgid "No profiles found"
+msgstr ""
+
+#: ../functions/post-types.php:133
+msgid "No profiles found in Trash"
+msgstr ""
+
+#: ../functions/post-types.php:150
+#: ../functions/post-types.php:244
+msgid "profile"
+msgstr ""
+
+#: ../functions/post-types.php:163
+#, php-format
+msgid "Slide updated. <a href=\"%s\">View slide</a>"
+msgstr ""
+
+#: ../functions/post-types.php:164
+#: ../functions/post-types.php:192
+#: ../functions/post-types.php:220
+#: ../functions/post-types.php:248
+msgid "Custom field updated."
+msgstr ""
+
+#: ../functions/post-types.php:165
+#: ../functions/post-types.php:193
+#: ../functions/post-types.php:221
+#: ../functions/post-types.php:249
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../functions/post-types.php:166
+msgid "Slide updated."
+msgstr ""
+
+#: ../functions/post-types.php:168
+#, php-format
+msgid "Slide restored to revision from %s"
+msgstr ""
+
+#: ../functions/post-types.php:169
+#, php-format
+msgid "Slide published. <a href=\"%s\">View slide</a>"
+msgstr ""
+
+#: ../functions/post-types.php:170
+msgid "Slide saved."
+msgstr ""
+
+#: ../functions/post-types.php:171
+#, php-format
+msgid "Slide submitted. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
+msgstr ""
+
+#: ../functions/post-types.php:172
+#, php-format
+msgid "Slide scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview slide</a>"
+msgstr ""
+
+#: ../functions/post-types.php:174
+#: ../functions/post-types.php:202
+#: ../functions/post-types.php:230
+#: ../functions/post-types.php:258
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../functions/post-types.php:175
+#, php-format
+msgid "Slide draft updated. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
+msgstr ""
+
+#: ../functions/post-types.php:191
+#, php-format
+msgid "Testimonial updated. <a href=\"%s\">View testimonial</a>"
+msgstr ""
+
+#: ../functions/post-types.php:194
+msgid "Testimonial updated."
+msgstr ""
+
+#: ../functions/post-types.php:196
+#, php-format
+msgid "Testimonial restored to revision from %s"
+msgstr ""
+
+#: ../functions/post-types.php:197
+#, php-format
+msgid "Testimonial published. <a href=\"%s\">View Testimonial</a>"
+msgstr ""
+
+#: ../functions/post-types.php:198
+msgid "Testimonial saved."
+msgstr ""
+
+#: ../functions/post-types.php:199
+#, php-format
+msgid "Testimonial submitted. <a target=\"_blank\" href=\"%s\">Preview Testimonial</a>"
+msgstr ""
+
+#: ../functions/post-types.php:200
+#, php-format
+msgid "Testimonial scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Testimonial</a>"
+msgstr ""
+
+#: ../functions/post-types.php:203
+#, php-format
+msgid "Testimonial draft updated. <a target=\"_blank\" href=\"%s\">Preview Testimonial</a>"
+msgstr ""
+
+#: ../functions/post-types.php:219
+#, php-format
+msgid "Gallery updated. <a href=\"%s\">View gallery</a>"
+msgstr ""
+
+#: ../functions/post-types.php:222
+msgid "Gallery updated."
+msgstr ""
+
+#: ../functions/post-types.php:224
+#, php-format
+msgid "Gallery restored to revision from %s"
+msgstr ""
+
+#: ../functions/post-types.php:225
+#, php-format
+msgid "Gallery published. <a href=\"%s\">View gallery</a>"
+msgstr ""
+
+#: ../functions/post-types.php:226
+msgid "Gallery saved."
+msgstr ""
+
+#: ../functions/post-types.php:227
+#, php-format
+msgid "Gallery submitted. <a target=\"_blank\" href=\"%s\">Preview gallery</a>"
+msgstr ""
+
+#: ../functions/post-types.php:228
+#, php-format
+msgid "Gallery scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview gallery</a>"
+msgstr ""
+
+#: ../functions/post-types.php:231
+#, php-format
+msgid "Gallery draft updated. <a target=\"_blank\" href=\"%s\">Preview gallery</a>"
+msgstr ""
+
+#: ../functions/post-types.php:247
+#, php-format
+msgid "Profile updated. <a href=\"%s\">View profile</a>"
+msgstr ""
+
+#: ../functions/post-types.php:250
+msgid "Profile updated."
+msgstr ""
+
+#: ../functions/post-types.php:252
+#, php-format
+msgid "Profile restored to revision from %s"
+msgstr ""
+
+#: ../functions/post-types.php:253
+#, php-format
+msgid "Profile published. <a href=\"%s\">View Profile</a>"
+msgstr ""
+
+#: ../functions/post-types.php:254
+msgid "Profile saved."
+msgstr ""
+
+#: ../functions/post-types.php:255
+#, php-format
+msgid "Profile submitted. <a target=\"_blank\" href=\"%s\">Preview Profile</a>"
+msgstr ""
+
+#: ../functions/post-types.php:256
+#, php-format
+msgid "Profile scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Profile</a>"
+msgstr ""
+
+#: ../functions/post-types.php:259
+#, php-format
+msgid "Profile draft updated. <a target=\"_blank\" href=\"%s\">Preview Profile</a>"
+msgstr ""
+
+#: ../functions/post-types.php:273
+msgid "Slide Title"
+msgstr ""
+
+#: ../functions/post-types.php:288
+msgid "Testimonial Title"
+msgstr ""
+
+#: ../functions/post-types.php:302
+msgid "Profile Title"
+msgstr ""
+
+#: ../functions/post-types.php:313
+msgid "media-type"
+msgstr ""
+
+#: ../functions/post-types.php:313
+msgid "Item Categories"
+msgstr ""
+
+#: ../functions/post-types.php:325
+msgid "Gallery Item Title"
+msgstr ""
+
+#: ../functions/post-types.php:326
+msgid "type"
+msgstr ""
+
+#: ../functions/slide-fields.php:18
+msgid "URL"
+msgstr ""
+
+#: ../functions/slide-fields.php:19
+msgid "Link to the image"
+msgstr ""
+
+#: ../functions/slide-fields.php:25
+msgid "Caption"
+msgstr ""
+
+#: ../functions/slide-fields.php:26
+msgid "Image caption"
+msgstr ""
+
+#: ../functions/testimonial-fields.php:18
+msgid "Name"
+msgstr ""
+
+#: ../functions/testimonial-fields.php:19
+msgid "Costumer name"
+msgstr ""
+
+#: ../functions/testimonial-fields.php:25
+msgid "Title"
+msgstr ""
+
+#: ../functions/testimonial-fields.php:26
+msgid "Costumer title"
+msgstr ""
+
+#: ../functions/widget-donation.php:23
+msgid "Display donation widget"
+msgstr ""
+
+#: ../functions/widget-donation.php:26
+msgid "Bhinneka Donation"
+msgstr ""
+
+#: ../functions/widget-donation.php:44
+#: ../functions/widget-latest-post.php:44
+#: ../functions/widget-map.php:44
+msgid "Title:"
+msgstr ""
+
+#: ../functions/widget-donation.php:49
+#: ../functions/widget-map.php:49
+msgid "Subtitle:"
+msgstr ""
+
+#: ../functions/widget-donation.php:54
+msgid "Link:"
+msgstr ""
+
+#: ../functions/widget-latest-post.php:23
+msgid "Display latest post from any categories"
+msgstr ""
+
+#: ../functions/widget-latest-post.php:26
+msgid "Bhinneka Latest Posts"
+msgstr ""
+
+#: ../functions/widget-latest-post.php:49
+msgid "Category ID:"
+msgstr ""
+
+#: ../functions/widget-latest-post.php:54
+msgid "Number of posts:"
+msgstr ""
+
+#: ../functions/widget-map.php:23
+msgid "Display map"
+msgstr ""
+
+#: ../functions/widget-map.php:26
+msgid "Bhinneka Map"
+msgstr ""
+
+#: ../functions/widget-map.php:54
+msgid "Google map link (without iframe):"
+msgstr ""
+
+#: ../functions/widget-newsletter.php:23
+msgid "Display newsletter widget"
+msgstr ""
+
+#: ../functions/widget-newsletter.php:26
+msgid "Bhinneka Newsletter"
+msgstr ""
+
+#: ../functions/widget-popular.php:23
+msgid "Display most popular post"
+msgstr ""
+
+#: ../functions/widget-popular.php:26
+msgid "Bhinneka Popular Posts"
+msgstr ""
+
+#: ../functions/widget-single-post.php:23
+msgid "Display text from any post / page"
+msgstr ""
+
+#: ../functions/widget-single-post.php:26
+msgid "Bhinneka Single Post"
+msgstr ""
+
+#: ../functions/widget-single-post.php:48
+msgid "Type of content:"
+msgstr ""
+
+#: ../functions/widget-single-post.php:55
+msgid "ID:"
+msgstr ""
+
+#: ../functions/widget-testimonial.php:23
+msgid "Display testimonials posts"
+msgstr ""
+
+#: ../functions/widget-testimonial.php:26
+msgid "Bhinneka Testimonial"
+msgstr ""
+
+#: ../functions/widget-testimonial.php:49
+msgid "Number of testimonials:"
+msgstr ""
+
+#: ../functions/widget-testimonial.php:54
+msgid "URL:"
+msgstr ""
+
+#: ../functions/widget-twitter.php:21
+msgid "Displays the latest tweets"
+msgstr ""
+
+#: ../functions/widget-twitter.php:23
+msgid "Bhinneka Twitter"
+msgstr ""
+
+#: ../functions/widget-twitter.php:44
+msgid "Username:"
+msgstr ""
+
+#: ../functions/widget-twitter.php:48
+msgid "Number of tweets:"
+msgstr ""
+
+#: ../functions/widget-video.php:22
+msgid "Display video"
+msgstr ""
+
+#: ../functions/widget-video.php:24
+msgid "Bhinneka Video"
+msgstr ""
+
+#: ../functions/widget-video.php:42
+msgid "Embed code (iframe):"
+msgstr ""
+
+#: ../functions/widget-video.php:48
+msgid "Caption:"
+msgstr ""
+
+#: ../functions/tinymce/interface.php:2
+msgid "You do not have permission to access this page"
+msgstr ""
+
+#: ../lib/comment-form.php:10
+msgid "Email"
+msgstr ""
+
+#: ../lib/comment-form.php:16
+msgid "Message:"
+msgstr ""
+
+#: ../lib/mod-cta.php:10
+msgid "How you can help?"
+msgstr ""
+
+#: ../lib/mod-profiles.php:9
+msgid "Featured Profiles"
+msgstr ""
+

@@ -1,0 +1,181 @@
+/* Column code based on http://www.columnal.com/ and http://lessframework.com/ */
+
+/*------------------------------------------------------------------
+
+1.	CORE
+
+------------------------------------------------------------------*/
+
+.container {padding-left: 10px; padding-right: 10px;}
+.row {clear: both; width: 100%; max-width: 940px; margin: 0 auto; overflow: hidden;}
+
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_5b, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12, .col_13, .col_14, .col_15,
+.col_two, .col_three, .col_four,
+.gallery_col_two, .gallery_col_three, .gallery_col_four  {float: left; margin-right:2.128%; position: relative;}
+
+.col_1 {width: 4.255%;}
+.col_2 {width: 10.638%;}
+.col_3 {width: 17.021%;}
+.col_4 {width: 23.404%;}
+.col_5 {width: 29.787%;}
+.col_5b {width: 31.914%;}
+.col_6 {width: 36.17%;}
+.col_7 {width: 42.553%;}
+.col_8 {width: 48.936%;}
+.col_9 {width: 55.319%;}
+.col_10 {width: 61.702%;}
+.col_11 {width: 68.085%;}
+.col_12 {width: 74.468%;}
+.col_13 {width: 80.851%;}
+.col_14 {width: 87.234%;}
+.col_15 {width: 93.617%;}
+.col_16 {clear: both; width: 100%; float: left;}
+
+.col_1-3_wrap { padding: 0 2.135%; clear:both;}
+.col_1-3 {float: left; margin-right: 2.227%; position: relative; width:31.848%;}
+
+.last, .omega {margin-right: 0 !important;}
+img, object, embed {max-width: 100%;}
+
+
+.col_16 .col_two, .col_12 .col_two  { width: 48.89%; margin-right: 2.22%;}
+.col_16 .col_three, .col_12 .col_three  { width: 31.53%; margin-right: 2.22%;}
+.col_16 .col_four, .col_12 .col_four  { width: 23.335%; margin-right: 2.22%;}
+
+
+.gallery_col_two, .gallery_col_three, .gallery_col_four  { margin-right: 2.22%; margin-bottom:1.375em;}
+.gallery_col_two 	{ width: 48.89%; }
+.gallery_col_three  { width: 31.8533%; }
+.gallery_col_four 	{ width: 23.335%; }
+/*.gallery_col_three  { width: 31.333%; margin: 1%; }*/
+
+
+/*-----------------------------------------
+Prefix and suffix ( horizontal spacing )
+-----------------------------------------*/
+
+/* Spacing before column */
+.pre_1 {padding-left: 6.383%;}
+.pre_2 {padding-left: 12.766%;}
+.pre_3 {padding-left: 19.149%;}
+.pre_4 {padding-left: 25.532%;}
+.pre_5 {padding-left: 31.915%;}
+.pre_6 {padding-left: 38.298%;}
+.pre_7 {padding-left: 44.681%;}
+.pre_8 {padding-left: 51.064%;}
+.pre_9 {padding-left: 57.447%;}
+.pre_10 {padding-left: 63.83%;}
+.pre_11 {padding-left: 70.213%;}
+.pre_12 {padding-left: 76.596%;}
+.pre_13 {padding-left: 82.979%;}
+.pre_14 {padding-left: 89.362%;}
+.pre_15 {padding-left: 95.745%;}
+
+/* Spacing after column */
+.suf_1 {padding-right: 6.383%;}
+.suf_2 {padding-right: 12.766%;}
+.suf_3 {padding-right: 19.149%;}
+.suf_4 {padding-right: 25.532%;}
+.suf_5 {padding-right: 31.915%;}
+.suf_6 {padding-right: 38.298%;}
+.suf_7 {padding-right: 44.681%;}
+.suf_8 {padding-right: 51.064%;}
+.suf_9 {padding-right: 57.447%;}
+.suf_10 {padding-right: 63.83%;}
+.suf_11 {padding-right: 70.213%;}
+.suf_12 {padding-right: 76.596%;}
+.suf_13 {padding-right: 82.979%;}
+.suf_14 {padding-right: 89.362%;}
+.suf_15 {padding-right: 95.745%;}
+
+/*-----------------------------------------
+Utility
+-----------------------------------------*/
+
+.clear {clear:both !important;}
+.clearleft {clear:left !important;}
+.clearright {clear:right !important;}
+
+.textcenter {text-align:center;}
+.textright {text-align:right;}
+.textleft {text-align:left;}
+
+/* this will insert a pseduo element clears floats for an element containing floated content
+.selfclear:after {clear:both; content:"."; display:block; height:0; visibility:hidden;}*/
+
+.mobile-only {display: none;}
+
+
+/* Clearing */
+
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clear:before,
+    .clear:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }*/
+
+
+
+
+
+
+/*------------------------------------------------------------------
+
+	Mobile
+
+------------------------------------------------------------------*/
+
+
+@media handheld, only screen and (max-width: 767px) {
+	.body, .container { width: 100%; margin-left:0; margin-right:0; padding-left:0; padding-right:0; }
+
+	/* kill prefixes and suffixes, otherwise 1-column version breaks */
+	.pre_1, .pre_2, .pre_3, .pre_4, .pre_5, .pre_6, .pre_7, .pre_8, .pre_9, .pre_10, .pre_11, .pre_12, .pre_13, .pre_14, .pre_15, .pre_16 {padding-left: 0;}
+	.suf_1, .suf_2, .suf_3, .suf_4, .suf_5, .suf_6, .suf_7, .suf_8, .suf_9, .suf_10, .suf_11, .suf_12, .suf_13, .suf_14, .suf_15, .suf_16 {padding-right: 0;}
+
+	/* cssgrid.net - mobile presets */
+	.col_1, .col_2, .col_3, .col_4, .col_5, .col_5b, .col_6, .col_7, .col_8,
+	.col_9, .col_10, .col_11, .col_12, .col_13, .col_14, .col_15, .col_16, .col_two, .col_three, .col_four
+  	{ clear: both; float: none; margin-left: 0; margin-right: 0; padding-left: 10px; padding-right: 10px;
+	width: auto; width: -moz-available; }
+
+	.col_1-3_wrap .col_1-3 { width: 100%; margin-right:0; }
+
+	.col_16 .col_two , .col_12 .col_two, .col_16 .col_three ,
+  	.col_12 .col_three, .col_16 .col_four , .col_12 .col_four {	padding-left: 0; padding-right: 0; width: 100%; }
+
+  	.gallery_col_two, .gallery_col_three, .gallery_col_four   { padding-left: 0; padding-right: 0;  width: 50%; margin: 0;}
+
+
+	/* .reverse {padding-top: 1em; margin-bottom: 1em;} */
+
+	/* Columnal content control - use on any elements to show/hide content on mobile */
+	.mobile-hide {display: none !important;}
+	.mobile-only {display: block;}
+
+}
