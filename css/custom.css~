@@ -16,7 +16,6 @@
 .sf-menu > li > a,
 .sf-menu > li > a:visited {
 	color: #333;
-	font-size: 0.7em;
 }
 #nav-wrapper {
 	margin-top: 3em;
